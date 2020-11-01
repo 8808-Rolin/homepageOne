@@ -1,0 +1,89 @@
+body {
+	background-repeat: repeat-x;
+	background-size: auto 100%;
+	background-attachment: fixed;
+	background-position: 50% 0px;
+	background-color: #eaeadf;
+	-webkit-background-size: auto 100%;
+	min-height: 700px;
+	align-items: center;
+	justify-content: center;
+}
+.text{
+	margin-top: 5px;
+}
+.slogan{
+	width: 100%;
+	margin-top: 200px;
+	text-align: center;
+	font-family: "微软雅黑", serif;
+	font-size: 30px;
+	color: #333333;
+	min-width: 300px;
+}
+
+.search_div{
+	position: relative;
+	display: none;
+}
+
+.search_input{
+	position: absolute;
+	text-align: center;
+	width: 30%;
+	min-width: 200px;
+	height: 50px;
+	margin-left: 30%;
+	background-color: rgba(255,255,255,.9);
+	border: 2px solid gray;
+	border-radius: 20px;
+	left: 0;
+	right: 0;
+	margin: 50px auto;
+	font-size: 18px;
+	border-radius: 20px;
+	outline: none;
+	text-align: center;
+	appearance: search;
+}
+
+#btn{
+	margin-top: 80px;
+}
+.search_btn{
+	width: 200px;
+	height: 56px;
+	min-width: 200px;
+	border-radius: 50px;
+	border: 2px solid gray;
+	outline: none;
+	background-color: rgba(255,255,255,.5);
+	transition: .6s;
+	font-size: 15px;
+	color: #000;
+}
+.search_btn:hover,.search_btn:active{
+	background-color: rgba(255,255,255,.9);
+	color: gray;
+	width: 30%;
+	border-radius: 20px;
+	opacity: .8;
+}
+.bottom{
+	position: relative;
+	text-align: center;
+	top:93%;
+	width: 200px;
+	margin-left: 50%;
+	left: -100px;
+	color: gray;
+	padding: 0;
+}
+.bottom a{
+	text-decoration: none;
+	color: gray;
+}
+.bottom a:hover{
+	text-decoration: underline;
+	color: #000000;
+}

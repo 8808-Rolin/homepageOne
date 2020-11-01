@@ -1,0 +1,73 @@
+.top{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: #FFFFFF;
+	height: 50px;
+	text-align: center;
+	box-shadow:0 0 20px rgba(50,50,60,.2);
+	font-size: 16px;
+}
+.toplist{
+	position: absolute;
+	list-style-type: none;
+	width:84%;
+	height: 50px;
+	margin-top: 0px;
+	margin-left: 50%;
+	left: -44.2%;
+	min-width: 480px;
+}
+.toplist ol{
+	list-style-type: none;
+}
+.sonbar{
+	position: absolute;
+	margin-left: 0px;
+	padding: 0px;
+	left:0px;
+	display: none;
+}
+.toplist li:hover ol{
+	display: block;
+}
+
+.toplist li ol li{
+	float: none;
+}
+
+.toplist li{
+	width: 16.6%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	position: relative;
+}
+.toplist li a{
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	
+}
+.toplist li a:link{
+	background-color: #FFFFFF;
+	color: gray;
+}
+.toplist li a:visited{
+	color: gray;
+}
+
+.toplist li a:hover{
+	background-color:#b7c9ca ;
+	color:#FFFFFF;
+}
+
+.toplist li a:active{
+	color: black;
+}
+.text{
+	margin-top: 5px;
+}

@@ -1,0 +1,137 @@
+body {
+	background-repeat: repeat-x;
+	background-size: auto 100%;
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-color: #eaeadf;
+	-webkit-background-size: auto 100%;
+}
+
+.regstyle{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 75%;
+	top: 120px;
+}
+.regtext {
+	height: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.line {
+	height: 1px;
+	flex-grow: 1;
+	background-color: #D8D8D8;
+}
+.title {
+	margin: 0 40px;
+	font-size: 40px;
+	font-family: "宋体",sans-serif;
+}
+
+.info{
+	position: absolute;
+	width: 600px;
+	left: 50%;
+	top: 230px;
+	margin-left: -300px;
+}
+.textbox{
+	margin-top: 20px;
+	position: relative;
+	width: 500px;
+	height: 60px;
+	font-size: 20px;
+	font-family: "楷体",sans-serif;
+	left: 50%;
+	margin-left: -250px;
+	background-color: rgba(255,255,255,1);
+	text-indent: 20px;
+	border-radius:15px;
+	border:none;
+	outline: none;
+}
+.vertext{
+	margin-top: 14px;
+	position: relative;
+	width: 200px;
+	height: 60px;
+	font-size: 20px;
+	font-family: "楷体",sans-serif;
+	left: 50%;
+	margin-left: -210px;
+	background-color: rgba(255,255,255,1);
+	text-indent: 20px;
+	border-radius:15px;
+	border:none;
+	outline: none;
+
+}
+.verbox{
+	margin-top: 14px;
+	position: relative;
+	width: 150px;
+	height: 55px;
+	font-size: 20px;
+	font-family: "楷体",sans-serif;
+	top: 20px;
+	left: 50%;
+	margin-left: 20px;
+	background-color: rgba(255,255,255,1);
+	text-indent: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.abox{
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 50px;
+	zoom: 100%;
+	font-family: "微软雅黑",sans-serif;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+	vertical-align:middle;
+}
+.abox a{
+	text-decoration: none;
+	color:#009FDB;
+}
+.abox a:hover{
+	text-decoration: underline;
+}
+.sub{
+	position: absolute;
+	width: 300px;
+	height: 55px;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: "宋体",sans-serif;
+	color: white;
+	border: none;
+	border-radius: 12px;
+	background-color: #C2C2C2;
+	outline: none;
+}
+
+.ex{
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 100px;
+	font-size: 13px;
+}
+.ex p a{
+	text-decoration: none;
+	color:#009FDB;
+}
+.tip{
+	margin-top: 5px;
+	margin-left: 70px;
+	color: red;
+	font-size: 5px;
+}
